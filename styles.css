@@ -325,8 +325,30 @@ ul {
 .hero-cta {
   display: flex;
   justify-content: center;
-  gap: 1.2rem; /* 从1.5rem减少到1.2rem */
+  align-items: center;
+  gap: 1.2rem;
   animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.btn.btn-primary {
+  animation: breathe-btn 3.5s ease-in-out infinite;
+}
+
+.btn.btn-primary span {
+  display: inline-block;
+  animation: breathe-text 3.5s ease-in-out infinite;
+}
+
+@keyframes breathe-btn {
+  0% { box-shadow: 0 4px 12px rgba(255, 133, 0, 0.3); transform: scale(1); }
+  50% { box-shadow: 0 8px 24px rgba(255, 133, 0, 0.5); transform: scale(1.06); }
+  100% { box-shadow: 0 4px 12px rgba(255, 133, 0, 0.3); transform: scale(1); }
+}
+
+@keyframes breathe-text {
+  0% { opacity: 1; letter-spacing: 0.5px; }
+  50% { opacity: 0.85; letter-spacing: 2px; }
+  100% { opacity: 1; letter-spacing: 0.5px; }
 }
 
 /* 调整按钮尺寸 */
@@ -476,7 +498,7 @@ ul {
   color: var(--text-secondary);
   font-size: 1.2rem;
   max-width: 600px;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1.5rem; /* 从3.5rem减少到2.5rem */
   transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   text-align: center;
 }
