@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="english"
+	lang="english">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link type="image/x-icon"
+	href="/sites/www.ledinside.com/theme/favicon.ico" rel="shortcut icon" />
+<title>Page does not exist-LEDinside</title>
+<link href="/sites/www.ledinside.com/theme/styles/common.css"
+	media="all" rel="stylesheet" type="text/css" />
+<link href="/sites/www.ledinside.com/theme/style.css?v=2505250356" media="all"
+	rel="stylesheet" type="text/css" />
+<script type="text/javascript" async=""
+	src="http://www.google-analytics.com/ga.js"></script>
+<script src="/sites/default/scripts/jquery.js" type="text/javascript"></script>
+<script src="/sites/default/scripts/common.js?v=2505250356" type="text/javascript"></script>
+<script src="/sites/default/scripts/jquery.showArea.js"
+	type="text/javascript"></script>
+<script src="/sites/default/scripts/smartmenu-min.js"
+	type="text/javascript"></script>
+<script src="/sites/default/scripts/jquery.flexslider-min.js"
+	type="text/javascript"></script>
+<script src="/sites/default/scripts/jquery.galleryview-1.1.js"
+	type="text/javascript"></script>
+
+</head>
+<body>
+	<div class="topnav cl">
+		<div class="w1000"><p class="y navinf w600r">
+			<strong> <a href="/user/login" class="login" rel="nofollow" title="Login">Login</a> </strong>  | 
+			<strong><a href="/user/register" class="login" rel="nofollow" title="Register">Register</a> </strong> | &nbsp;&nbsp;<a href="/b2b/manage" class="userlink" rel="nofollow" title="Management">Management</a> | <a href="/user" class="userlink" rel="nofollow" title="Member Center">Member Center</a> | <a href="/service/contact" class="userlink" rel="nofollow" title="Contact Us">Contact Us</a> <!--| <a href="/service/FAQ" class="userlink" rel="nofollow" title="FAQ">FAQ</a>-->   
+			<a href="http://www.ledinside.com/rss.xml" target="_blank" rel="nofollow"><img src="/sites/www.ledinside.com/theme/images/arrow_rss.png" alt="RSS" title="RSS" style="vertical-align: middle;"></a> 
+			<a href="https://www.facebook.com/pages/LED/134692371744" target="_blank" rel="nofollow"><img src="/sites/www.ledinside.com/theme/images/arrow_facebook.png" alt="facebook" title="facebook" style="vertical-align: middle;"></a>
+			<a href="https://plus.google.com/117674353195357470301" target="_blank" rel="nofollow"><img src="/sites/www.ledinside.com/theme/images/arrow_google.png" alt="google+" title="google+" style="vertical-align: middle;"></a> 
+			<a href="http://twitter.com/ledinside" target="_blank" rel="nofollow"><img src="/sites/www.ledinside.com/theme/images/arrow_twitter.png" alt="twitter" title="twitter" style="vertical-align: middle;"></a>
+			<a href="https://www.linkedin.com/company/ledinside---led-industry-research?trk=biz-brand-tree-co-name" target="_blank" rel="nofollow"><img src="/sites/www.ledinside.com/theme/images/arrow_linkedin.png" alt="linkedin" title="linkedin" style="vertical-align: middle;"></a>
+			<a href="http://m.ledinside.com/" target="_blank" rel="nofollow"><img src="/sites/www.ledinside.com/theme/images/arrow_mobile.png" alt="mobile web" title="mobile web" style="vertical-align: middle;"></a> &nbsp;&nbsp;&nbsp; 
+
+			<a href="http://www.ledinside.cn/" class="language-bar" rel="nofollow" title="Simplified Chinese" target="_blank">CN</a>
+			<a href="http://www.ledinside.com.tw/" class="language-bar" rel="nofollow" title="Traditional Chinese" target="_blank">TW</a>
+			<a href="http://www.ledinside.com/" class="language-bar" rel="nofollow" title="English" target="_blank">EN</a>
+			<!--<a href="http://m.ledinside.com" target="_blank" rel="nofollow"><img src="/sites/www.ledinside.com/theme/images/mobile-icon.png" alt="Mobile" title="Mobile" style="vertical-align: middle;"></a>-->
+			</p>
+			<ul class="cl">
+				<!--<li class="navmobile"><a href="http://m.ledinside.com/"  title="Mobile Web" rel="nofollow" target="_blank">Mobile Web</a></li>
+				<li class="navlogo"><a href="/b2b/"  title="LEDeXchange" rel="nofollow" target="_blank">LEDeXchange</a></li>-->
+				<li class="navhome"><a href="/" title="LEDinside" rel="nofollow">Home</a></li>
+				<li class="navlogo"><a href="/intelligence/purchase_mi" title="Purchase Reports" rel="nofollow">Purchase Reports</a></li>
+				<li class="navlogo"><a href="/service/advertisement" title="Advertise" rel="nofollow">Advertise</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="header">
+		<div class="w1000">
+			<div class="header_logo_banner">
+				<div class="header_logo">
+					<a href="/"><img title="LEDinside" alt="LEDinside"
+						src="/sites/www.ledinside.com/theme/images/LOGO.gif"></a>
+				</div>
+				<div class="header_banner">
+					<div>
+						<iframe width="600" scrolling="no" height="60" frameborder="0"
+							src="http://www2.ledinside.com/www/delivery/afr.php?zoneid=87&amp;cb=34519355"
+							name="aea05915" id="aea05915">&lt;a
+						href='http://www2.ledinside.com/www/delivery/ck.php?n=a7ed90a6&amp;amp;cb=34519355'
+						target='_blank'&gt;&lt;img
+						src='http://www2.ledinside.com/www/delivery/avw.php?zoneid=87&amp;amp;cb=34519355&amp;amp;n=a7ed90a6'
+						border='0' alt='' /&gt;&lt;/a&gt;</iframe>
+					</div>
+				</div>
+			</div>
+			<div class="header_search_toolbar">
+				<div class="search">
+					<form target="_blank" id="search_form" method="get"
+						action="http://search.ledinside.com/lsearch/index.php/front/index">
+						<input type="hidden" id="source" value="ledinside_en"
+							name="source">
+						
+						<input type="text" placeholder="search" class="inpute_search"
+							size="26" name="query">
+						
+						<img width="32" align="absmiddle" height="13"
+							style="cursor: pointer" onclick="$('#search_form').submit();"
+							src="/sites/www.ledinside.com/theme/images/search.gif">
+						
+						<input type="hidden" value="008596808325024115699:uwnmzakbdjk"
+							id="edit-cx-1" name="cx">
+						
+						<input type="hidden" value="FORID:11" id="edit-cof-1" name="cof">
+						
+						<input type="hidden" value="form-0b78d5f4908481545f6e1c9744c57ef1"
+							id="form-0b78d5f4908481545f6e1c9744c57ef1" name="form_build_id">
+						
+						<input type="hidden" value="62009a21c17da6e9b1d5a44ee0f5b00f"
+							id="edit-google-cse-searchbox-form-form-token" name="form_token">
+						
+						<input type="hidden" value="google_cse_searchbox_form"
+							id="edit-google-cse-searchbox-form" name="form_id">
+					
+					</form>
+				</div>
+				<div class="header_keyword">
+					<a href="/taxonomy/term/16313">Micro LED</a>        	        	
+					<a href="/taxonomy/term/4542">LED lighting</a>        	        	
+					<a href="/taxonomy/term/1016">Osram</a>        	        	
+					<a href="/taxonomy/term/2370">Macroblock</a>        	                
+				</div>
+				<div class="header_tag">
+					<div class="tag1"><a href="/intelligence/purchase_mi" style="display:block; height:28px;"  title="Purchase Reports"></a></div>
+					<div class="tag2"><a href="/service/advertisement" style="display:block; height:28px;"  title="Advertise"></a></div>
+					<div class="tag3"><a href="/announcements" style="display:block; height:28px;"  title="Submit Press Releases" rel="nofollow"></a></div>
+					<div class="tag4"><a href="//www.trendforce.com/event" style="display:block; height:28px;"  title="LEDforum" target="_blank" rel="nofollow"></a></div>           	 
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="smartmenu" id="navigation">
+		<div class="w1000">
+			<ul class="primarylinks">
+				<li class="first active" id="primary0"><a href="/news">News</a>
+					<ul>
+						<li><a href="/news_industry">Industry</a></li>
+						<li><a href="/news_finance">Finance</a></li>
+						<li><a href="/news_application">Applications</a></li>
+					</ul>
+				</li>
+
+				<li id="primary1"><a href="/lighting">Lighting</a>
+					<ul>
+						<li><a href="/lighting/project">Lighting Projects</a></li>
+						<li><a href="/lighting/column">Lighting Column</a></li>
+					</ul>
+				</li>
+
+				<li id="primary2"><a href="/products">Product news</a>
+					<ul>
+						<li><a href="/products/LED-chips">LED Chips</a></li>
+	    		    	<li><a href="/products/LED-packages">LED Packages</a></li>
+	    		    	<li><a href="/products/LED-modules">LED Modules</a></li>
+	    		    	<li><a href="/products/LED-Luminaires">Luminaires</a></li>
+	    		    	<li><a href="/products/application">Related Applications</a></li>
+	    		    	<li><a href="/taxonomy/term/977">Smart Lighting</a></li>
+	    		    	<li><a href="/press">Press Releases</a></li>
+					</ul>
+				</li>
+
+				<li id="primary3"><a href="/taxonomy/term/17960">Niche Markets</a>	    	    	    	
+					<ul>
+	    		    	<li><a href="/taxonomy/term/2630">UV LED</a></li>
+	    		    	<li><a href="/taxonomy/term/1345">IR LED</a></li>
+	    		    	<li><a href="/taxonomy/term/9617">Automotive LED Lighting</a></li>
+	    		    	<li><a href="/taxonomy/term/7728">LED Grow Lights</a></li>
+	    		    	<li><a href="/taxonomy/term/940">OLED</a></li>
+	    		    	<li><a href="/taxonomy/term/9134">Quantum Dot</a></li>
+	    		    	<li><a href="/taxonomy/term/5645">Micro LED</a></li>
+					</ul>
+	    	    </li>
+
+				<li id="primary4"><a href="/features" class="feature_menuitem">Features</a>	    	    	    	
+					<ul>
+	    		    	<li><a href="/interview">Interviews</a></li>
+	    			</ul>
+	    	    </li>
+
+				<li id="primary5"><a href="/knowledge/">Technology</a>
+					<ul>
+						<li><a href="/taxonomy/term/1001">LED Driver IC</a></li>
+						<li><a href="/taxonomy/term/1371">LED Displays</a></li>
+					</ul>
+				</li>
+
+				<li id="primary6"><a href="/mi">Market Intelligence</a>
+					<ul>
+						<li><a href="/researchintelligence">Research & Intelligence</a></li>
+						<li><a href="/outlook">Outlook</a></li>
+						<li><a href="/pricequotes">Price Trend</a></li>
+					</ul>
+				</li>
+
+				<li id="primary7"><a href="/service">Products & Service</a>
+					<ul>
+						<li><a href="/intelligence/purchase_mi">Purchase reports</a></li>
+						<li><a href="/service/advertisement">Advertise</a></li>
+						<li><a href="http://www.trendforce.com/event">LEDforum</a></li>
+					</ul>
+				</li>
+
+				<li id="primary8"><a href="/event">Events</a>
+					<ul>
+						<li><a href="/event">LED Events</a></li>
+						<li><a href="/showreport">Show Report</a></li>
+						<li><a href="http://www.trendforce.com/event">TrendForce Events</a></li>
+						<li><a href="http://www.trendforce.com/event/customized_events">Customized Events</a></li>
+					</ul>
+				</li>
+
+				<li id="primary9"><a href="/resources" class="last">Resources</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+
+	<div id="front-body-wrapper" class="clear-block">
+		<div id="body" class="clear-block">
+			<div style="text-align: center">
+				<img src="/sites/www.ledinside.com/theme/images/error_404.gif" />
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+   		<div id="copyright">
+   	  		<div class="content">
+        		<a href="/service/about" class="footer_link" rel="nofollow">About us</a> | <a href="/service/contact" class="footer_link" rel="nofollow">Contact us</a> | <a href="/service/editorial_staff" class="footer_link" rel="nofollow">Editorial Staff</a> | <a href="http://www.trendforce.com/about/career" class="footer_link" rel="nofollow" target="_blank">Career</a> | <a href="http://press.trendforce.com/" class="footer_link" rel="nofollow" target="_blank">Press center</a> | <a href="/service" class="footer_link" rel="nofollow">Products & Service</a> | <a href="/service/terms" class="footer_link" rel="nofollow">Terms</a> | <a href="/service/privacy_policy" class="footer_link" rel="nofollow">Privacy policy</a> | <a href="/keywords" class="footer_link" rel="nofollow">Keywords</a> | <a href="/service/sitemap" class="footer_link" rel="nofollow">Sitemap</a><br>
+         		<span align="center">© 2018 LEDinside, a Business Division of <a href="http://www.trendforce.com/" target="_blank" class="gary" rel="nofollow">TrendForce Corp.</a> All rights reserved.</span>   
+      		</div>
+      		<div class="QRcode"><img src="/sites/www.ledinside.com/theme/images/QRcode.gif" alt="" width="158" height="85" title="LEDinside APP" /></div>
+   		</div>
+ 		<div id="footer-brand">
+			<a href="http://www.trendforce.com" target="_blank" class="weblink">TrendForce</a>：
+			<a href="http://www.dramexchange.com/" target="_blank" class="weblink">DRAMeXchange</a>
+			| <a href="http://www.witsview.com/" target="_blank" class="weblink">WitsView</a>
+			| <a href="http://www.ledinside.com/" target="_blank" class="weblink">LEDinside</a>
+			| <a href="http://www.energytrend.com/" target="_blank" class="weblink">EnergyTrend</a>
+		</div>  
+	</div>
+</body>
+<script type="text/javascript">
+	            jQuery(window).ready(function(){
+	                jQuery("#navigation").Smartmenu({animationDuration: 200});
+					jQuery('.flexslider').flexslider();
+	            });
+	          
+	</script>
+</html>
