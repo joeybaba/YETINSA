@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>清除缓存</title>
+    <style>
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #1a73e8, #7c4dff);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            margin-bottom: 1.5rem;
+        }
+        p {
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #1a73e8;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>正在清除浏览器缓存</h1>
+        <p>为了确保您能看到网站的最新设计，我们需要清除浏览器缓存。点击下方按钮将会清除缓存并重新加载页面。</p>
+        <a href="/" class="btn" id="reload-btn">清除缓存并查看网站</a>
+    </div>
+
+    <script>
+        document.getElementById('reload-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            // 尝试清除缓存
+            if (window.caches) {
+                caches.keys().then(function(names) {
+                    for (let name of names) {
+                        caches.delete(name);
+                    }
+                });
+            }
+            
+            // 强制刷新页面
+            window.location.href = '/?v=' + new Date().getTime();
+        });
+        
+        // 自动触发点击事件（3秒后）
+        setTimeout(function() {
+            document.getElementById('reload-btn').click();
+        }, 3000);
+    </script>
+</body>
+</html> 

@@ -1,0 +1,73 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(0, 0, 0, 0.03)" stroke-width="0.5" />
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)" />
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(0, 0, 0, 0.05)" stroke-width="1" />
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(26, 115, 232, 0.08);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(124, 77, 255, 0.05);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(26, 115, 232, 0.05);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(124, 77, 255, 0.03);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景网格 -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- 抽象形状 -->
+  <circle cx="200" cy="200" r="80" fill="url(#grad1)" filter="url(#glow)" />
+  <circle cx="800" cy="700" r="120" fill="url(#grad2)" filter="url(#glow)" />
+  
+  <path d="M300,300 Q450,150 600,300 T900,300" stroke="rgba(26, 115, 232, 0.1)" stroke-width="2" fill="none" />
+  <path d="M100,500 Q250,350 400,500 T700,500" stroke="rgba(124, 77, 255, 0.08)" stroke-width="2" fill="none" />
+  <path d="M100,700 Q300,550 500,700 T900,700" stroke="rgba(26, 115, 232, 0.1)" stroke-width="2" fill="none" />
+  
+  <!-- 装饰点 -->
+  <g fill="rgba(26, 115, 232, 0.15)">
+    <circle cx="150" cy="150" r="3" />
+    <circle cx="200" cy="150" r="2" />
+    <circle cx="250" cy="150" r="4" />
+    <circle cx="150" cy="200" r="2" />
+    <circle cx="250" cy="200" r="3" />
+    <circle cx="150" cy="250" r="4" />
+    <circle cx="200" cy="250" r="3" />
+    <circle cx="250" cy="250" r="2" />
+  </g>
+  
+  <g fill="rgba(124, 77, 255, 0.15)">
+    <circle cx="750" cy="650" r="3" />
+    <circle cx="800" cy="650" r="2" />
+    <circle cx="850" cy="650" r="4" />
+    <circle cx="750" cy="700" r="2" />
+    <circle cx="850" cy="700" r="3" />
+    <circle cx="750" cy="750" r="4" />
+    <circle cx="800" cy="750" r="3" />
+    <circle cx="850" cy="750" r="2" />
+  </g>
+  
+  <!-- 波浪形状 -->
+  <path d="M0,350 C100,310 200,390 300,350 C400,310 500,390 600,350 C700,310 800,390 900,350 C1000,310 1100,390 1200,350" 
+        fill="none" stroke="rgba(26, 115, 232, 0.06)" stroke-width="2" />
+        
+  <path d="M0,380 C100,340 200,420 300,380 C400,340 500,420 600,380 C700,340 800,420 900,380 C1000,340 1100,420 1200,380" 
+        fill="none" stroke="rgba(124, 77, 255, 0.04)" stroke-width="2" />
+  
+  <!-- 浅色六边形 -->
+  <path d="M150,600 L130,630 L150,660 L190,660 L210,630 L190,600 Z" fill="rgba(26, 115, 232, 0.05)" />
+  <path d="M850,300 L830,330 L850,360 L890,360 L910,330 L890,300 Z" fill="rgba(124, 77, 255, 0.05)" />
+  <path d="M450,750 L430,780 L450,810 L490,810 L510,780 L490,750 Z" fill="rgba(26, 115, 232, 0.05)" />
+  <path d="M550,150 L530,180 L550,210 L590,210 L610,180 L590,150 Z" fill="rgba(124, 77, 255, 0.05)" />
+</svg> 
