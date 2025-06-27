@@ -759,21 +759,6 @@ ul {
 }
 
 /* 媒体查询适配移动设备 */
-@media (max-width: 768px) {
-  .spec-list {
-    grid-template-columns: repeat(2, 1fr); /* 保持2列布局 */
-  }
-  
-  .spec-list li {
-    font-size: 0.75rem; /* 在移动设备上进一步减小字体 */
-  }
-}
-
-@media (max-width: 480px) {
-  .spec-list li {
-    font-size: 0.7rem; /* 在小屏幕上进一步减小字体 */
-  }
-}
 
 .tech-badge {
   position: absolute;
@@ -1096,138 +1081,7 @@ ul {
   transform: rotate(90deg);
 }
 
-/* 媒体查询 */
-@media (max-width: 1024px) {
-  .hero-title {
-    font-size: 2.5rem; /* 从2.8rem减小到2.5rem */
-    max-width: 98%; /* 在中等屏幕上增加宽度，从95%到98% */
-    letter-spacing: 0.5px; /* 进一步减小字母间距 */
-  }
-  
-  .hero-subtitle {
-    font-size: 1rem; /* 从1.2rem减小到1rem */
-    letter-spacing: 1px;
-    word-spacing: 2px;
-  }
-  
-  .footer-content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-@media (max-width: 768px) {
-  .container {
-    padding: 0 1rem;
-  }
-  
-  .hero-title {
-    font-size: 1.6rem; /* 从1.8rem减小到1.6rem */
-    max-width: 100%; /* 在小屏幕上使用全宽 */
-    padding: 0 5px; /* 减小内边距，从10px到5px */
-    letter-spacing: 0.3px; /* 最小化字母间距 */
-    word-spacing: 1px; /* 最小化单词间距 */
-  }
-  
-  .hero-subtitle {
-    font-size: 0.85rem; /* 从1rem减小到0.85rem */
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
-    padding: 0 10px;
-  }
-  
-  /* 调整移动端的导航栏样式 */
-  .main-nav {
-    padding: 0.5rem 1rem; /* 从0.8rem减小到0.5rem */
-  }
-  
-  .nav-inner {
-    flex-direction: column;
-  }
-  
-  .nav-brand {
-    margin: 0 auto 1rem auto; /* 让logo居中 */
-  }
-  
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    margin: 0 auto;
-  }
-  
-  /* 增加导航栏高度的补偿 */
-  .hero-header {
-    padding-top: 120px; /* 从140px减小到120px，因为导航栏高度减小了 */
-  }
-  
-  .features-grid,
-  .product-grid,
-  .subcategory-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .footer-content {
-    grid-template-columns: 1fr;
-  }
-  
-  .section-header.sticky {
-    padding: 0.75rem 1rem;
-  }
-  
-  .section-header.sticky .section-title {
-    font-size: 1.2rem; /* 增加字体大小 */
-  }
-  
-  .section-header.sticky .section-subtitle {
-    font-size: 0.7rem;
-  }
-  
-  .section-title {
-    font-size: 1.75rem;
-  }
-  
-  .category-title {
-    font-size: 1.5rem;
-  }
-  
-  .product-card {
-    height: 360px; /* 在移动端略微减小卡片高度 */
-  }
-  
-  .product-media {
-    height: 300px; /* 增加高度 */ /* 在移动端略微减小图片区域高度 */
-  }
-  
-  .product-content {
-    max-height: 160px;
-    padding: 1.2rem; /* 减小内容区域内边距 */
-  }
-  
-  .spec-list li {
-    width: 100%; /* 在移动端列表项占满宽度 */
-    font-size: 0.8rem;
-  }
-  
-  .tech-badge {
-    font-size: 0.75rem;
-    padding: 0.4rem 0.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .product-card {
-    height: 340px; /* 进一步减小卡片高度 */
-  }
-  
-  .product-media {
-    height: 200px;
-  }
-  
-  .product-content h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.6rem;
-  }
-}
 
 /* 动画 */
 @keyframes fadeInUp {
@@ -1514,53 +1368,7 @@ h3.category-title {
   margin-bottom: 0;
 }
 
-/* 媒体查询适配移动设备 */
-@media (max-width: 768px) {
-  .company-intro {
-    margin-top: 0; /* 从-3rem改为0，保持移动设备上的一致性 */
-    padding: 1.5rem;
-  }
-  
-  .intro-paragraph {
-    font-size: 1rem;
-    line-height: 1.7;
-    letter-spacing: 0.4px; /* 移动设备上增加字母间距 */
-    word-spacing: 1.5px; /* 移动设备上增加单词间距 */
-    margin-bottom: 1.5rem;
-    padding: 0 0.3rem;
-  }
-  
-  .intro-title {
-    font-size: 1.6rem;
-    margin-bottom: 1.2rem;
-  }
-  
-  .stats-title {
-    font-size: 1.3rem;
-    margin: 1.8rem 0 1rem;
-  }
-  
-  .tech-list li {
-    margin-bottom: 0.8rem;
-    letter-spacing: 0.4px;
-    word-spacing: 1.5px;
-  }
-  
-  .key-numbers {
-    flex-direction: column;
-    gap: 1.2rem;
-    margin: 1.5rem 0;
-  }
-  
-  .number {
-    font-size: 2rem; /* 增加字体大小 */
-  }
-  
-  .number-label {
-    letter-spacing: 0.4px;
-    word-spacing: 1.5px;
-  }
-}
+
 
 /* 统一所有部分的背景颜色和内边距 */
 .features-section,
@@ -1772,33 +1580,6 @@ section {
 } */
 
 /* 媒体查询适配移动设备 */
-@media (max-width: 768px) {
-  .qrcode-wrapper {
-    width: 150px;
-    height: 150px;
-    padding: 5px; /* 减小内边距 */
-  }
-  
-  .qrcode-placeholder {
-    width: 130px;
-    height: 130px;
-  }
-  
-  .contact-info {
-    font-size: 0.85rem;
-    padding: 0.4rem 0.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .contact-info {
-    font-size: 0.75rem;
-    padding: 0.3rem 0.6rem;
-    white-space: normal;
-    text-align: center;
-    max-width: 280px;
-  }
-}
 
 .category-description {
     color: #666;
@@ -1896,47 +1677,6 @@ section {
     line-height: 1.7;
 }
 
-/* 产品卡片媒体查询优化 */
-@media (max-width: 1200px) {
-    .products-grid {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .products-grid {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 1.5rem;
-    }
-    
-    .category-title {
-        font-size: 1.75rem;
-    }
-    
-    .spec-list li {
-        width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .products-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .product-media {
-        height: 300px; /* 增加高度 */
-    }
-    
-    .tech-badge {
-        font-size: 0.75rem;
-        padding: 0.4rem 0.8rem;
-    }
-    
-    .products-section {
-        padding: 3rem 0;
-    }
-}
 
 /* 产品卡片动画效果 */
 .product-card.fade-in {
@@ -2366,43 +2106,6 @@ section {
 .culture-item:nth-child(3) { transition-delay: 0.3s; }
 .culture-item:nth-child(4) { transition-delay: 0.4s; }
 
-/* 媒体查询适配移动设备 */
-@media (max-width: 768px) {
-  .position-item {
-    min-width: 33.333%;
-    height: 500px; /* 高度调整 */
-  }
-  
-  .culture-item {
-    min-width: 50%;
-    height: 500px; /* 高度调整 */
-  }
-  
-  .data-item {
-    min-width: 50%;
-    height: 500px; /* 高度调整 */
-  }
-}
-
-@media (max-width: 480px) {
-  .position-item {
-    min-width: 100%;
-    max-width: none;
-    height: 600px; /* 高度调整 */
-  }
-  
-  .culture-item {
-    min-width: 100%;
-    max-width: none;
-    height: 600px; /* 高度调整 */
-  }
-  
-  .data-item {
-    min-width: 100%;
-    max-width: none;
-    height: 400px; /* 高度调整 */
-  }
-}
 
 /* 为企业文化的文字添加突出效果 */
 .culture-item-inner h4 {
@@ -2479,16 +2182,7 @@ section {
   margin: 0 12px;
 }
 
-@media (max-width: 480px) {
-  .display-app-card {
-    width: 240px;
-    height: 180px;
-    min-width: 240px;
-    max-width: 240px;
-    min-height: 180px;
-    max-height: 180px;
-  }
-}
+
 
 .display-app-bg {
   position: absolute;
@@ -2586,20 +2280,6 @@ section {
   line-height: 1.7;
 }
 
-/* 媒体查询 */
-@media (max-width: 768px) {
-  .display-app-card {
-    height: 450px; /* 在移动端稍微减小高度 */
-    min-width: 280px;
-  }
-}
-
-@media (max-width: 480px) {
-  .display-app-card {
-    height: 400px; /* 在小屏幕上进一步减小高度 */
-    min-width: 260px;
-  }
-}
 
 .hero-header .container {
     position: relative;
@@ -2737,16 +2417,6 @@ section {
   margin: 0 12px !important;
 }
 
-@media (max-width: 480px) {
-  .display-app-card {
-    width: 240px !important;
-    height: 180px !important;
-    min-width: 240px !important;
-    max-width: 240px !important;
-    min-height: 180px !important;
-    max-height: 180px !important;
-  }
-}
 
 /* --- Custom Footer for Modern Brand Style --- */
 .footer-container {
@@ -2838,44 +2508,6 @@ section {
   margin-top: 1.5rem;
   border-radius: 0 0 16px 16px;
 }
-@media (max-width: 900px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-    padding: 2rem 1rem 1rem 1rem;
-  }
-  .footer-container > div {
-    max-width: 100%;
-    width: 100%;
-    align-items: flex-start;
-    margin-bottom: 1.2rem;
-  }
-}
-@media (max-width: 600px) {
-  .footer-container {
-    padding: 1.2rem 0.5rem 0.5rem 0.5rem;
-    gap: 1rem;
-  }
-  .footer-logo {
-    width: 44px;
-    height: 44px;
-  }
-  .footer-company-name {
-    font-size: 1.1rem;
-  }
-  .footer-desc, .footer-contact-item {
-    font-size: 0.92rem;
-  }
-  .footer-social-link {
-    width: 32px;
-    height: 32px;
-  }
-  .footer-copyright {
-    font-size: 0.85rem;
-    padding: 0.7rem 0 0.1rem 0;
-  }
-}
 
 .footer-qrcode {
   margin-top: 1.2rem;
@@ -2927,22 +2559,7 @@ section {
 .footer-nav-list a:hover {
   color: #fff;
 }
-@media (max-width: 900px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-  }
-  .footer-container > div {
-    max-width: 100%;
-    width: 100%;
-    align-items: flex-start;
-    margin-bottom: 1.2rem;
-  }
-  .footer-qrcode {
-    text-align: left;
-  }
-}
+
 
 .footer-contact-label {
   font-weight: bold;
