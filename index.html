@@ -23,7 +23,9 @@
     <meta property="og:url" content="https://www.yetinsa.com/">
     <meta property="og:title" content="YETINSA - High Performance LED Displays | Mini-LED | Micro-LED Solutions">
     <meta property="og:description" content="Leading manufacturer of high performance LED displays, Mini-LED, Micro-LED, LED modules, and optoelectronic solutions. Professional LED technology for global customers.">
-    <meta property="og:image" content="https://www.yetinsa.com/images/og-image.jpg">
+    <meta property="og:image" content="https://www.yetinsa.com/images/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="YETINSA">
     <meta property="og:locale" content="en_US">
 
@@ -32,7 +34,7 @@
     <meta property="twitter:url" content="https://www.yetinsa.com/">
     <meta property="twitter:title" content="YETINSA - High Performance LED Displays | Mini-LED | Micro-LED Solutions">
     <meta property="twitter:description" content="Leading manufacturer of high performance LED displays, Mini-LED, Micro-LED, LED modules, and optoelectronic solutions.">
-    <meta property="twitter:image" content="https://www.yetinsa.com/images/twitter-image.jpg">
+    <meta property="twitter:image" content="https://www.yetinsa.com/images/logo.png">
 
     <!-- 规范链接 -->
     <link rel="canonical" href="https://www.yetinsa.com/">
@@ -146,26 +148,97 @@
     }
     </script>
 
+    <!-- 面包屑导航结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.yetinsa.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.yetinsa.com/#products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Applications",
+          "item": "https://www.yetinsa.com/#solutions"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Company",
+          "item": "https://www.yetinsa.com/#company"
+        }
+      ]
+    }
+    </script>
+
+    <!-- FAQ结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of LED products does YETINSA manufacture?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YETINSA manufactures high performance LED displays, Mini-LED, Micro-LED, LED modules, RGBW strips, and optoelectronic semiconductor products for commercial, automotive, and specialized applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What industries does YETINSA serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YETINSA serves various industries including commercial lighting, landscape lighting, stage lighting, automotive, and LED backlight applications for displays and screens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is YETINSA located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YETINSA is located in Shenzhen, Guangdong, China, and serves customers globally with LED display and lighting solutions."
+          }
+        }
+      ]
+    }
+    </script>
+
     <!-- Google Tag Manager -->
+    <!-- 请将 GTM-XXXXXXX 替换为你的实际容器ID -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    })(window,document,'script','dataLayer','GTM-NWJ46HMP');</script>
     <!-- End Google Tag Manager -->
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <!-- 请将 G-XXXXXXXXXX 替换为你的实际测量ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZR2ZWGBE0"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'GA_MEASUREMENT_ID');
+      gtag('config', 'G-LZR2ZWGBE0');
     </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    <!-- 请将 GTM-XXXXXXX 替换为你的实际容器ID -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWJ46HMP"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header class="hero-header" id="home">
@@ -1329,10 +1402,10 @@
                     <h3>YETINSA</h3>
                     <p>Professional LED Display Solutions for the modern world. Leading innovation in LED technology with quality and reliability. We provide comprehensive LED component solutions for commercial, automotive, and specialized applications worldwide.</p>
                     <div class="social-links">
-                        <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
-                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
-                        <a href="#" class="social-link" aria-label="YouTube">📺</a>
-                        <a href="#" class="social-link" aria-label="Email">📧</a>
+                        <a href="https://www.linkedin.com/company/yetinsa" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">💼</a>
+                        <a href="https://twitter.com/yetinsa" class="social-link" aria-label="Twitter" target="_blank" rel="noopener">🐦</a>
+                        <a href="https://www.youtube.com/@yetinsa" class="social-link" aria-label="YouTube" target="_blank" rel="noopener">📺</a>
+                        <a href="mailto:jacky.zhang@yetinsa.cn" class="social-link" aria-label="Email">📧</a>
                     </div>
                 </div>
 
@@ -1350,12 +1423,12 @@
                 <div class="footer-section footer-applications">
                     <h3>Applications</h3>
                     <ul class="footer-links">
-                        <li><a href="#applications">Retail Display</a></li>
-                        <li><a href="#applications">Control Room</a></li>
-                        <li><a href="#applications">Conference Room</a></li>
-                        <li><a href="#applications">Outdoor Advertising</a></li>
-                        <li><a href="#applications">Film Production</a></li>
-                        <li><a href="#applications">Home Display</a></li>
+                        <li><a href="#solutions">Retail Display</a></li>
+                        <li><a href="#solutions">Control Room</a></li>
+                        <li><a href="#solutions">Conference Room</a></li>
+                        <li><a href="#solutions">Outdoor Advertising</a></li>
+                        <li><a href="#solutions">Film Production</a></li>
+                        <li><a href="#solutions">Home Display</a></li>
                     </ul>
                 </div>
 
@@ -1370,7 +1443,7 @@
             </div>
 
             <div class="footer-copyright">
-                <p>&copy; 2024 YETINSA. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>&copy; 2025 YETINSA. All rights reserved. | <a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-of-service.html">Terms of Service</a></p>
             </div>
         </div>
     </footer>
