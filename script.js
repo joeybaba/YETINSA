@@ -1,66 +1,7 @@
 // Modern script - Referenced from Cursor and Trae websites
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Create floating shapes (bubble effect) - Cancelled use
-    /*
-    const createFloatingShapes = () => {
-        const floatingShapes = document.createElement('div');
-        floatingShapes.className = 'floating-shapes';
-        
-        // Reduce bubble quantity to 10, reduce webpage burden
-        const numShapes = 10;
-        
-        for (let i = 0; i < numShapes; i++) {
-            const shape = document.createElement('div');
-            shape.className = 'shape';
-            
-            // Random size - Further increase size, minimum from 20px to 50px
-            const size = Math.random() * 120 + 50; // 50px to 170px between
-            shape.style.width = `${size}px`;
-            shape.style.height = `${size}px`;
-            
-            // Random position
-            const left = Math.random() * 100;
-            const top = Math.random() * 100;
-            shape.style.left = `${left}%`;
-            shape.style.top = `${top}%`;
-            
-            // Random opacity - Increase minimum opacity to make bubbles brighter
-            const opacity = Math.random() * 0.15 + 0.1; // 0.1 to 0.25 between
-            shape.style.opacity = opacity;
-            
-            // Increase random delay to make bubble animation more dispersed
-            const delay = Math.random() * 8;
-            shape.style.animationDelay = `${delay}s`;
-            
-            // Increase animation duration to reduce CPU usage
-            const duration = Math.random() * 10 + 12; // 12-22 seconds
-            shape.style.animationDuration = `${duration}s`;
-            
-            // Random color - Add some colored bubbles
-            if (Math.random() > 0.6) {
-                // 40% of bubbles have color
-                const hue = Math.random() > 0.5 ? '35' : '220'; // Orange or blue
-                const saturation = Math.floor(Math.random() * 40 + 60); // 60-100%
-                const lightness = Math.floor(Math.random() * 20 + 70); // 70-90%
-                shape.style.background = `hsla(${hue}, ${saturation}%, ${lightness}%, ${opacity})`;
-                shape.style.boxShadow = `0 0 10px hsla(${hue}, ${saturation}%, ${lightness}%, ${opacity * 0.8})`;
-            } else {
-                // Add glow effect
-                shape.style.boxShadow = `0 0 15px rgba(255, 255, 255, ${opacity * 0.8})`;
-            }
-            
-            floatingShapes.appendChild(shape);
-        }
-        
-        const heroHeader = document.querySelector('.hero-header');
-        if (heroHeader) {
-        heroHeader.appendChild(floatingShapes);
-        }
-    };
-    
-    createFloatingShapes();
-    */
+
     
     // Create modern light spot effect
     const createLightSpots = () => {

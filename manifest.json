@@ -5,7 +5,7 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",
-  "theme_color": "#ffaa00",
+  "theme_color": "#ff8500",
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "en",
@@ -30,18 +30,30 @@
       "purpose": "any"
     }
   ],
-  "screenshots": [
+  "shortcuts": [
     {
-      "src": "images/screenshot-desktop.jpg",
-      "sizes": "1280x720",
-      "type": "image/jpeg",
-      "form_factor": "wide"
+      "name": "Products",
+      "short_name": "Products",
+      "description": "View our LED product catalog",
+      "url": "/#products",
+      "icons": [
+        {
+          "src": "images/favicon_io/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
-      "src": "images/screenshot-mobile.jpg",
-      "sizes": "390x844",
-      "type": "image/jpeg",
-      "form_factor": "narrow"
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "/#company",
+      "icons": [
+        {
+          "src": "images/favicon_io/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
