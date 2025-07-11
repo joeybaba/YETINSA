@@ -3517,6 +3517,37 @@ section {
 }
 
 /* ========================================
+   性能优化样式
+======================================== */
+/* 图片优化 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 减少重绘和回流 */
+* {
+  box-sizing: border-box;
+}
+
+/* GPU加速 */
+.hero-header,
+.product-card,
+.display-app-card,
+.back-to-top {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* 字体渲染优化 */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================================
    返回顶部按钮样式
 ======================================== */
 .back-to-top {

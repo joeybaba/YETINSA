@@ -2,20 +2,172 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <title>YETINSA - High Performance LED Displays | Mini-LED | Micro-LED | LED Modules | Optoelectronic Solutions</title>
-    <link rel="stylesheet" href="styles.css?v=20250636">
-    <script src="script.js?v=20250567"></script>
+    <link rel="stylesheet" href="styles.min.css?v=20250711">
+    <script src="script.min.js?v=20250711" defer></script>
     <meta name="description" content="YETINSA is a leading manufacturer specializing in high performance LED displays, Mini-LED, Micro-LED, LED modules, RGBW strips, and optoelectronic semiconductor products. We provide global customers with reliable, high-quality LED display and lighting solutions.">
     <meta name="keywords" content="LED display,YETINSA,high performance LED,LED module,LED strip,Mini-LED,Micro-LED,RGBW,optoelectronics,display solutions,LED manufacturer,LED supplier,LED technology,LED products,LED lighting,LED application,LED company">
+
+    <!-- SEO优化meta标签 -->
+    <meta name="author" content="YETINSA">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yetinsa.com/">
+    <meta property="og:title" content="YETINSA - High Performance LED Displays | Mini-LED | Micro-LED Solutions">
+    <meta property="og:description" content="Leading manufacturer of high performance LED displays, Mini-LED, Micro-LED, LED modules, and optoelectronic solutions. Professional LED technology for global customers.">
+    <meta property="og:image" content="https://www.yetinsa.com/images/og-image.jpg">
+    <meta property="og:site_name" content="YETINSA">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.yetinsa.com/">
+    <meta property="twitter:title" content="YETINSA - High Performance LED Displays | Mini-LED | Micro-LED Solutions">
+    <meta property="twitter:description" content="Leading manufacturer of high performance LED displays, Mini-LED, Micro-LED, LED modules, and optoelectronic solutions.">
+    <meta property="twitter:image" content="https://www.yetinsa.com/images/twitter-image.jpg">
+
+    <!-- 规范链接 -->
+    <link rel="canonical" href="https://www.yetinsa.com/">
+
+    <!-- 性能优化 -->
+    <link rel="preload" href="styles.min.css?v=20250711" as="style">
+    <link rel="preload" href="script.min.js?v=20250711" as="script">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+
+    <!-- 预连接到外部资源 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
-    <link rel="manifest" href="images/favicon_io/site.webmanifest">
-    <!-- favicon和相关icon、manifest标签已全部移除，准备重新配置 -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- PWA支持 -->
+    <meta name="theme-color" content="#ffaa00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="YETINSA">
+    <meta name="msapplication-TileColor" content="#ffaa00">
+    <meta name="msapplication-config" content="browserconfig.xml">
+
+    <!-- 结构化数据 JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "YETINSA",
+      "url": "https://www.yetinsa.com",
+      "logo": "https://www.yetinsa.com/images/logo.png",
+      "description": "YETINSA is a leading manufacturer specializing in high performance LED displays, Mini-LED, Micro-LED, LED modules, RGBW strips, and optoelectronic semiconductor products.",
+      "foundingDate": "2008",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Shenzhen",
+        "addressRegion": "Guangdong",
+        "addressCountry": "China"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+86-134-1745-7773",
+        "email": "jacky.zhang@yetinsa.cn",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/yetinsa",
+        "https://twitter.com/yetinsa"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "LED Products",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Mini-LED Displays",
+              "description": "High performance Mini-LED display solutions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Micro-LED Displays",
+              "description": "Advanced Micro-LED display technology"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "LED Modules",
+              "description": "Professional LED module components"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "RGBW LED Strips",
+              "description": "High quality RGBW LED strip solutions"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- 网站结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "YETINSA",
+      "url": "https://www.yetinsa.com",
+      "description": "Leading manufacturer of high performance LED displays and optoelectronic solutions",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.yetinsa.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="hero-header" id="home">
         <!-- 添加光线动效元素 -->
         <div class="light-beam"></div>
@@ -893,7 +1045,7 @@
                 </div>
                 
                 <div class="application-intro">
-                    <p>YETINSA LED display products are widely used in various scenarios, from creative displays to commercial venues, from stage performances to home theaters, from film production to broadcasting. We provide comprehensive LED display solutions to meet the professional needs of different industries.</p>
+                    <p>YETINSA <a href="#products" title="LED Display Products">LED display products</a> are widely used in various scenarios, from <a href="#solutions" title="Creative Display Solutions">creative displays</a> to commercial venues, from stage performances to home theaters, from film production to broadcasting. We provide comprehensive <a href="#products" title="LED Display Solutions">LED display solutions</a> to meet the professional needs of different industries.</p>
                 </div>
                 
                 <div class="display-applications">
@@ -1187,11 +1339,11 @@
                 <div class="footer-section footer-products">
                     <h3>Products</h3>
                     <ul class="footer-links">
-                        <li><a href="#products">Commercial Lighting</a></li>
-                        <li><a href="#products">Landscape Lighting</a></li>
-                        <li><a href="#products">Stage Lighting</a></li>
-                        <li><a href="#products">Automotive LED</a></li>
-                        <li><a href="#products">LED Backlight</a></li>
+                        <li><a href="#products" title="Commercial LED Lighting Solutions">Commercial Lighting</a></li>
+                        <li><a href="#products" title="Landscape LED Lighting Products">Landscape Lighting</a></li>
+                        <li><a href="#products" title="Professional Stage LED Lighting">Stage Lighting</a></li>
+                        <li><a href="#products" title="Automotive LED Components">Automotive LED</a></li>
+                        <li><a href="#products" title="LED Backlight Solutions">LED Backlight</a></li>
                     </ul>
                 </div>
 
