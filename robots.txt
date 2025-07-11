@@ -6,6 +6,3 @@ Disallow: /data/
 Disallow: /components/
 
 Sitemap: https://www.yetinsa.com/sitemap.xml
-
-# Crawl-delay for better server performance
-Crawl-delay: 1
