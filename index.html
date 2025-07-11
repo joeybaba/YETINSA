@@ -81,12 +81,25 @@
         "addressRegion": "Guangdong",
         "addressCountry": "China"
       },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+86-134-1745-7773",
-        "email": "jacky.zhang@yetinsa.cn",
-        "contactType": "customer service"
-      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+86-134-1745-7773",
+          "email": "jacky.zhang@yetinsa.cn",
+          "contactType": "customer service",
+          "availableLanguage": ["English", "Chinese"],
+          "hoursAvailable": "Mo-Fr 09:00-18:00 GMT+8"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+86-134-1745-7773",
+          "email": "jacky.zhang@yetinsa.cn",
+          "contactType": "sales",
+          "areaServed": "US",
+          "availableLanguage": "English",
+          "hoursAvailable": "Mo-Fr 18:00-02:00 PST"
+        }
+      ],
       "sameAs": [
         "https://www.linkedin.com/company/yetinsa",
         "https://twitter.com/yetinsa"
@@ -276,7 +289,9 @@
                     </div>
                     <!-- 添加联系信息 -->
                     <div class="contact-info">
-                        Tel: +86 13417457773&nbsp;&nbsp;&nbsp;&nbsp;Email: jacky.zhang@yetinsa.cn
+                        <div class="contact-line">Global: +86 13417457773 (GMT+8)</div>
+                        <div class="contact-line">Email: jacky.zhang@yetinsa.cn</div>
+                        <div class="contact-line">US Business Hours: Mon-Fri 6PM-2AM PST</div>
                     </div>
                 </div>
                 
@@ -292,11 +307,11 @@
                     <h3 class="intro-title">About <span class="no-break">YETINSA</span></h3>
                     
                     <p class="intro-paragraph">
-                        <span class="no-break">YETINSA</span> is a nationally recognized high-tech enterprise specializing in the research, development, manufacturing, and sales of <span class="highlight"><span class="no-break">RGB</span> <span class="no-break">LED</span> components</span>, <span class="highlight"><span class="no-break">LED</span> display units</span> and <span class="highlight"><span class="no-break">LED</span> strips</span>.
+                        <span class="no-break">YETINSA</span> is a globally recognized high-tech enterprise specializing in the research, development, manufacturing, and sales of <span class="highlight"><span class="no-break">RGB</span> <span class="no-break">LED</span> components</span>, <span class="highlight"><span class="no-break">LED</span> display units</span> and <span class="highlight"><span class="no-break">LED</span> strips</span>. <span class="highlight">Serving customers worldwide</span> including the United States, Europe, and Asia-Pacific regions.
                     </p>
-                    
+
                     <p class="intro-paragraph">
-                        Leveraging its profound expertise in the optoelectronic industry, the company integrates dedicated teams for research and development, business operations, and marketing. Committed to meeting customer demands, it aspires to be a global leader in the <span class="highlight">small pitch</span> display sector.
+                        Leveraging its profound expertise in the optoelectronic industry, the company integrates dedicated teams for research and development, business operations, and marketing. With <span class="highlight">comprehensive US market support</span> and global distribution capabilities, we are committed to meeting customer demands and aspire to be a global leader in the <span class="highlight">small pitch</span> display sector.
                     </p>
                     
                     <div class="stats-section">
@@ -770,7 +785,7 @@
                     <!-- 车用LED系列 -->
                     <div class="category-section">
                         <h3 class="category-title" style="text-align: center; width: 100%; display: block;">Automotive LED Series</h3>
-                        <p class="category-description" style="text-align: center; margin: 0 auto 2rem; max-width: 800px;">Automotive-grade LED components for headlights, signal lights, interior lighting, and dashboard applications, meeting strict automotive standards for reliability and performance.</p>
+                        <p class="category-description" style="text-align: center; margin: 0 auto 2rem; max-width: 800px;">Automotive-grade LED components for headlights, signal lights, interior lighting, and dashboard applications, meeting strict automotive standards including AEC-Q102, IATF 16949, and US DOT FMVSS requirements for reliability and performance.</p>
                         <div class="product-grid">
                             <article class="product-card">
                                 <div class="product-media">
@@ -1118,7 +1133,7 @@
                 </div>
                 
                 <div class="application-intro">
-                    <p>YETINSA <a href="#products" title="LED Display Products">LED display products</a> are widely used in various scenarios, from <a href="#solutions" title="Creative Display Solutions">creative displays</a> to commercial venues, from stage performances to home theaters, from film production to broadcasting. We provide comprehensive <a href="#products" title="LED Display Solutions">LED display solutions</a> to meet the professional needs of different industries.</p>
+                    <p>YETINSA <a href="#products" title="LED Display Products">LED display products</a> are widely used across North America and globally, from <a href="#solutions" title="Creative Display Solutions">creative displays</a> to commercial venues, from stage performances to home theaters, from film production to broadcasting. We provide comprehensive <a href="#products" title="LED Display Solutions">LED display solutions</a> that meet US market standards and professional needs of different industries including entertainment, retail, automotive, and technology sectors.</p>
                 </div>
                 
                 <div class="display-applications">
@@ -1400,7 +1415,7 @@
             <div class="footer-content">
                 <div class="footer-section footer-company">
                     <h3>YETINSA</h3>
-                    <p>Professional LED Display Solutions for the modern world. Leading innovation in LED technology with quality and reliability. We provide comprehensive LED component solutions for commercial, automotive, and specialized applications worldwide.</p>
+                    <p>Professional LED Display Solutions for the modern world. Leading innovation in LED technology with quality and reliability. We provide comprehensive LED component solutions for commercial, automotive, and specialized applications worldwide. <strong>Serving US customers</strong> with dedicated support and competitive USD pricing.</p>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/company/yetinsa" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">💼</a>
                         <a href="https://twitter.com/yetinsa" class="social-link" aria-label="Twitter" target="_blank" rel="noopener">🐦</a>
@@ -1435,15 +1450,16 @@
                 <div class="footer-section">
                     <h3>Contact</h3>
                     <div class="footer-links">
-                        <a href="tel:+8613417457773">+86 134-1745-7773</a>
+                        <a href="tel:+8613417457773">+86 134-1745-7773 (GMT+8)</a>
                         <a href="mailto:jacky.zhang@yetinsa.cn">jacky.zhang@yetinsa.cn</a>
                         <a href="#">Shenzhen, Guangdong, China</a>
+                        <a href="#" style="font-size: 0.9em; color: #bbb;">US Hours: Mon-Fri 6PM-2AM PST</a>
                     </div>
                 </div>
             </div>
 
             <div class="footer-copyright">
-                <p>&copy; 2025 YETINSA. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a></p>
+                <p>&copy; 2025 YETINSA. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a> | <a href="cookie-policy.html">Cookie Policy</a></p>
             </div>
         </div>
     </footer>
