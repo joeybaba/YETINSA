@@ -1,0 +1,168 @@
+/* ========================================
+   应用场景模块样式
+======================================== */
+
+.applications-section {
+  background: var(--gradient-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.applications-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(245, 158, 11, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.applications-container {
+  position: relative;
+  z-index: 1;
+}
+
+.display-applications {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background: var(--gradient-card);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-container {
+  display: flex;
+  gap: var(--spacing-xl);
+  animation: scrollRight 40s linear infinite;
+  width: fit-content;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.display-app-card {
+  flex: 0 0 400px;
+  height: 300px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: var(--transition-normal);
+}
+
+.display-app-card:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-xl);
+}
+
+.display-app-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: var(--transition-slow);
+}
+
+.display-app-card:hover .display-app-bg {
+  transform: scale(1.1);
+}
+
+.display-app-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  padding: var(--spacing-xl);
+  color: white;
+  transform: translateY(20px);
+  transition: var(--transition-normal);
+}
+
+.display-app-card:hover .display-app-overlay {
+  transform: translateY(0);
+}
+
+.display-app-title {
+  font-size: var(--font-xl);
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--accent-color);
+}
+
+.display-app-desc {
+  font-size: var(--font-sm);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.9;
+}
+
+.display-app-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  transition: var(--transition-normal);
+}
+
+.display-app-link:hover {
+  color: white;
+  transform: translateX(4px);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .display-app-card {
+    flex: 0 0 320px;
+    height: 250px;
+  }
+  
+  .display-app-overlay {
+    padding: var(--spacing-lg);
+  }
+  
+  .display-app-title {
+    font-size: var(--font-lg);
+  }
+  
+  .display-app-desc {
+    font-size: var(--font-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .display-app-card {
+    flex: 0 0 280px;
+    height: 200px;
+  }
+  
+  .display-app-overlay {
+    padding: var(--spacing-md);
+  }
+  
+  .display-app-title {
+    font-size: var(--font-base);
+  }
+}

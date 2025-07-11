@@ -1,0 +1,257 @@
+/* ========================================
+   公司介绍模块样式
+======================================== */
+
+.company-section {
+  background: var(--gradient-primary);
+  position: relative;
+}
+
+.company-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 80%, rgba(245, 158, 11, 0.06) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.company-content {
+  position: relative;
+  z-index: 1;
+}
+
+.company-intro {
+  background: var(--gradient-card);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.company-intro p {
+  font-size: var(--font-lg);
+  line-height: 1.8;
+  color: var(--text-secondary);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.company-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.highlight-card {
+  background: var(--gradient-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  border: 1px solid var(--border-color);
+  transition: var(--transition-normal);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.highlight-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.highlight-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto var(--spacing-md);
+  background: var(--gradient-accent);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-xl);
+  transition: var(--transition-normal);
+}
+
+.highlight-card:hover .highlight-icon {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-md);
+}
+
+.highlight-card h3 {
+  font-size: var(--font-xl);
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-light);
+}
+
+.highlight-card p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* 团队展示 */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.team-member {
+  background: var(--gradient-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  border: 1px solid var(--border-color);
+  transition: var(--transition-normal);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.team-member:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.member-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-full);
+  margin: 0 auto var(--spacing-md);
+  background: var(--gradient-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-2xl);
+  color: white;
+  font-weight: 600;
+}
+
+.member-name {
+  font-size: var(--font-lg);
+  font-weight: 600;
+  color: var(--text-light);
+  margin-bottom: var(--spacing-xs);
+}
+
+.member-role {
+  font-size: var(--font-sm);
+  color: var(--accent-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.member-desc {
+  font-size: var(--font-sm);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* 公司文化 */
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.culture-item {
+  background: var(--gradient-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  border: 1px solid var(--border-color);
+  transition: var(--transition-normal);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.culture-item:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.culture-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--gradient-accent);
+  transition: var(--transition-normal);
+}
+
+.culture-item:hover::before {
+  width: 8px;
+}
+
+.culture-item h3 {
+  font-size: var(--font-xl);
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-bottom: var(--spacing-md);
+}
+
+.culture-item p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .company-highlights {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+  }
+  
+  .company-intro {
+    padding: var(--spacing-xl);
+  }
+  
+  .highlight-card {
+    padding: var(--spacing-lg);
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+  }
+  
+  .culture-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .company-highlights {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+  
+  .company-intro {
+    padding: var(--spacing-lg);
+  }
+  
+  .company-intro p {
+    font-size: var(--font-base);
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+  
+  .culture-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+}
