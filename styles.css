@@ -370,7 +370,7 @@ ul {
   height: 100%;
   overflow: hidden;
   z-index: 5; /* 确保显示在背景图片之上，但在内容之下 */
-}
+*/
 
 .shape {
   position: absolute;
@@ -402,7 +402,6 @@ ul {
 .shape:nth-child(3n) {
   animation: float 18s infinite ease-in-out; /* 只保留浮动动画，删除脉冲 */
 }
-*/
 
 /* 特性部分 - 现代卡片 */
 .features-section {
@@ -1801,6 +1800,22 @@ section {
   font-size: 1.2rem;
   font-weight: 500;
   margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* 二维码并排布局 */
+.qrcodes-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.qrcode-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* 联系信息样式 - 独立元素 */
