@@ -1808,7 +1808,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem; /* 从2rem减小到1rem，减小二维码间距 */
   margin-bottom: 1rem;
 }
 
