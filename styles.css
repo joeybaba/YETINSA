@@ -3235,6 +3235,24 @@ section {
     height: 80px; /* 保持较大的logo尺寸 */
   }
 
+  /* 二维码间距移动端优化 - 缩小为原来的一半 */
+  .qrcodes-row {
+    gap: 0rem; /* 移动端二维码间距缩小为0 */
+    transform: scale(0.9); /* 整体缩小到90%大小 */
+    margin: 0 -0.5rem; /* 负边距补偿缩放效果 */
+  }
+  
+  /* 移动端二维码图片尺寸优化 */
+  .qrcode-placeholder {
+    width: 140px; /* 移动端二维码尺寸缩小 */
+    height: 140px;
+  }
+  
+  /* 移动端二维码容器优化 */
+  .qrcode-container {
+    padding: 0 0.5rem;
+  }
+
   /* Core Products副标题移动端优化 */
   .products-subtitle {
     white-space: normal !important; /* 移动端允许换行 */
